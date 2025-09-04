@@ -1,0 +1,85 @@
+.contact-form {
+  max-width: 400px;
+  margin: 5% auto; 
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form input,
+.contact-form select {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form select:focus {
+  outline: none;
+  border-color: #1e90ff;
+  box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.2);
+}
+
+.contact-form button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(90deg, #1e90ff, #00bfff);
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(90deg, #00bfff, #1e90ff);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form input::placeholder,
+.contact-form select::placeholder {
+  color: #aaa;
+}
+
+@media (max-width: 480px) {
+  .contact-form {
+    margin: 10% 1rem;
+    padding: 1.5rem;
+  }
+}
+.dashboard-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #1e90ff;
+  box-shadow: 0 0 0 3px rgba(30,144,255,0.2);
+}
+
+.contact-form {
+  margin-bottom: 2rem;
+}
+
